@@ -136,33 +136,7 @@ export const Home = () => {
 
       {/* Services Grid with Centered Logo */}
       <div className="container mx-auto px-4 py-8">
-        {/* Mardi Chill Banner */}
-        {settings.floating_bubble_active && (
-          <div className="relative overflow-hidden rounded-lg mb-8 shadow-md" style={gradientStyle}>
-            <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJ3YXZlIiB4PSIwIiB5PSIwIiB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBwYXR0ZXJuVW5pdHM9InVzZXJTcGFjZU9uVXNlIj48cGF0aCBkPSJNMjggNjYuNGMtOCAwLTgtMzIuOC0xNi0zMi44UzQgNjYuNCA0IDY2LjQgMCA5OC40IDAgOTguNGg1NlY2Ni40YzAgMC00IDAtMTIgMHMtOC0zMi44LTE2LTMyLjh6IiBmaWxsPSJyZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMDUpIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI3dhdmUpIi8+PC9zdmc+')] opacity-10"></div>
-            <div className="relative flex flex-col md:flex-row items-center justify-between gap-4 py-3 px-4 text-white">
-              <div className="flex items-center gap-2">
-                <Droplets className="w-5 h-5 text-white animate-pulse" />
-                <div>
-                  <h3 className="text-xl font-amatic font-bold">{settings.mardi_chill_text}</h3>
-                  <p className="text-xs text-white/80">{settings.mardi_chill_subtitle}</p>
-                </div>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="text-right text-xs whitespace-pre-line">
-                  {settings.mardi_chill_schedule}
-                </div>
-                <button 
-                  onClick={() => window.location.href = '/booking/aquafitness'}
-                  className="bg-white px-3 py-1 rounded text-sm font-medium hover:bg-white/90 transition-colors duration-300 shadow-sm hover:shadow-md"
-                  style={{ color: gradientColors.from }}
-                >
-                  Réserver
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
+
 
         <div className="relative max-w-6xl mx-auto">
           {/* Top Row */}
