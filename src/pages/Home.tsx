@@ -349,7 +349,7 @@ export const Home = () => {
                   <div>
                     <p className="flex items-center gap-2 text-gray-700">
                       <Mail size={18} className="text-blue-600" />
-                      contact@aquabike-center.fr
+                      contact@aquabikecenter.club
                     </p>
                   </div>
                 </div>
