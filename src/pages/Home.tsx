@@ -133,14 +133,6 @@ export const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Floating Bubble */}
-      {settings.floating_bubble_active && (
-        <div className="fixed right-4 md:right-8 top-24 md:top-32 z-40">
-          <div className="floating-bubble bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full w-32 h-32 md:w-40 md:h-40 flex items-center justify-center text-center p-3 md:p-4 shadow-lg backdrop-blur-sm text-white font-amatic text-2xl md:text-3xl leading-tight cursor-pointer">
-            {settings.floating_bubble_text}
-          </div>
-        </div>
-      )}
 
       {/* Services Grid with Centered Logo */}
       <div className="container mx-auto px-4 py-8">
