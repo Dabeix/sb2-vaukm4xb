@@ -28,7 +28,7 @@ const centers: Center[] = [
     name: 'CASTELNAU-LE-LEZ',
     address: '155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez',
     phone: '07 67 27 41 87',
-    email: 'castelnau@aquabike-center.fr',
+    email: 'contact@aquabikecenter.club',
     schedules: [
       {
         activity: "AQUAMIX",
@@ -125,16 +125,73 @@ const centers: Center[] = [
             slots: ["10h15", "11h15", "17h45", "19h30"]
           },
           {
+            day: "Mardi",
+            slots: ["11h30"]
+          },
+          {
             day: "Mercredi",
             slots: ["11h30", "19h30"]
           },
           {
+            day: "Jeudi",
+            slots: ["11h30"]
+          },
+          {
             day: "Vendredi",
-            slots: ["14h", "17h45", "19h45"]
+            slots: ["11h00", "17h45", "19h45"]
           },
           {
             day: "Dimanche",
-            slots: ["9h15", "11h15"]
+            slots: ["09h15", "11h15"]
+          }
+        ]
+      },
+      {
+        activity: "AQUAGYM",
+        times: [
+          {
+            day: "Lundi",
+            slots: ["09h15"]
+          },
+          {
+            day: "Mardi",
+            slots: ["10h30"]
+          },
+          {
+            day: "Mercredi",
+            slots: ["17h45"]
+          },
+          {
+            day: "Jeudi",
+            slots: ["10h30"]
+          },
+          {
+            day: "Vendredi",
+            slots: ["11h15"]
+          },
+          {
+        activity: "AQUABIKE",
+        times: [
+          {
+            day: "Lundi",
+            slots: ["18h45"]
+          },
+          {
+            day: "Mardi",
+            slots: ["09h30","12h30","18h15", "19h00"]
+          },
+          {
+            day: "Mercredi",
+            slots: ["09h30", "12h30", "18h45"]
+          },
+          {
+            day: "Jeudi",
+            slots: ["09h30","10h00", "12h30", "18h45"]
+          },
+         
+          {
+            day: "Dimanche",
+            slots: ["10h15"]
           }
         ]
       }
