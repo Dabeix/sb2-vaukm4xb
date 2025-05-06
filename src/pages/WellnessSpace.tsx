@@ -165,15 +165,15 @@ export const WellnessSpace = () => {
                 <div className="space-y-2 text-sm">
                   <div className="flex items-center gap-2">
                     <MapPin size={16} className="text-orange-300" />
-                    <span>1 rue des Chevaliers de Malte, 34070 Montpellier</span>
+                    <span>769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Phone size={16} className="text-orange-300" />
-                    <span>04 67 34 43 00</span>
+                    <span>07 49 32 41 38</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Mail size={16} className="text-orange-300" />
-                    <span>montpellier@aquabike-center.fr</span>
+                    <span>contact@aquabikecenter.club</span>
                   </div>
                 </div>
               </div>
