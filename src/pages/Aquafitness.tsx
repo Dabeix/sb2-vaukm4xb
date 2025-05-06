@@ -43,7 +43,7 @@ const centers: Center[] = [
           },
           {
             day: "Mercredi",
-            slots: ["09h00]
+            slots: ["09h00"]
           },
           {
             day: "Jeudi",
