@@ -26,8 +26,8 @@ const centers: Center[] = [
   {
     id: 'castelnau',
     name: 'CASTELNAU-LE-LEZ',
-    address: '1744 Avenue de l\'Europe, 34170 Castelnau-le-Lez',
-    phone: '04 67 72 50 20',
+    address: '155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez',
+    phone: '07 67 27 41 87',
     email: 'castelnau@aquabike-center.fr',
     schedules: [
       {
@@ -35,23 +35,23 @@ const centers: Center[] = [
         times: [
           {
             day: "Lundi",
-            slots: ["10h15", "11h15", "17h45", "19h30"]
+            slots: ["10h15", "15h00"]
           },
           {
             day: "Mardi",
-            slots: ["11h30"]
+            slots: ["10h30, 15h00"]
           },
           {
             day: "Mercredi",
-            slots: ["11h30", "19h30"]
+            slots: ["09h00"]
           },
           {
             day: "Jeudi",
-            slots: ["11h30"]
+            slots: ["19h30"]
           },
           {
-            day: "Vendredi",
-            slots: ["14h", "17h45", "19h45"]
+            day: "Samedi",
+            slots: ["09h00"]
           }
         ]
       },
@@ -60,20 +60,52 @@ const centers: Center[] = [
         times: [
           {
             day: "Lundi",
-            slots: ["9h15"]
+            slots: ["11h15", "14h00", "17h00"]
           },
           {
             day: "Mardi",
-            slots: ["10h30"]
+            slots: ["08h45"]
           },
           {
             day: "Mercredi",
-            slots: ["17h45"]
+            slots: ["09h00"]
           },
           {
             day: "Jeudi",
-            slots: ["10h30", "11h15"]
+            slots: ["19h30"]
+          },
+          {
+            day: "Samedi",
+            slots: ["9h00"]
+          },
+          {
+        activity: "AQUABIKE",
+        times: [
+          {
+            day: "Lundi",
+            slots: ["08h30", "09h30", "12h30", "19h00", "20h00"]
+          },
+          {
+            day: "Mardi",
+            slots: ["09h45","12h30", "14h00","18h30", "19h30", "20h15"]
+          },
+          {
+            day: "Mercredi",
+            slots: ["09h45","11h30", "12h30", "14h00","18h30", "18h30", "19h30"]
+          },
+          {
+            day: "Jeudi",
+            slots: ["08h30"","10h00", "12h15", "13h00","17h45", "18h30"]
+          },
+          {
+            day: "Samedi",
+            slots: ["10h00", "10h45", "11h30", "12h30"]
+          },
+          {
+            day: "Dimanche",
+            slots: ["09h30", "10h15", "11h15"]
           }
+        ]
         ]
       }
     ]
@@ -81,9 +113,9 @@ const centers: Center[] = [
   {
     id: 'montpellier',
     name: 'MONTPELLIER - LE NUAGE',
-    address: '1 rue des Chevaliers de Malte, 34070 Montpellier',
-    phone: '04 67 34 43 00',
-    email: 'montpellier@aquabike-center.fr',
+    address: '769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier',
+    phone: '07.49.32.41.38',
+    email: 'contact@aquabikecenter.club',
     schedules: [
       {
         activity: "AQUAMIX",
