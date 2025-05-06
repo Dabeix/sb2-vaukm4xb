@@ -74,21 +74,21 @@ export const CentreMontpellier = () => {
               <MapPin className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Adresse</h3>
-                <p className="text-gray-600">1 rue des Chevaliers de Malte, 34070 Montpellier</p>
+                <p className="text-gray-600">769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Téléphone</h3>
-                <p className="text-gray-600">04 67 34 43 00</p>
+                <p className="text-gray-600">07 49 32 41 38</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Email</h3>
-                <p className="text-gray-600">montpellier@aquabike-center.fr</p>
+                <p className="text-gray-600"contact@aquabikecenter.club'</p>
               </div>
             </div>
           </div>
