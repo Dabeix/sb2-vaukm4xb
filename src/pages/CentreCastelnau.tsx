@@ -72,21 +72,21 @@ export const CentreCastelnau = () => {
               <MapPin className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Adresse</h3>
-                <p className="text-gray-600">1744 Avenue de l'Europe, 34170 Castelnau-le-Lez</p>
+                <p className="text-gray-600">155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Téléphone</h3>
-                <p className="text-gray-600">04 67 72 50 20</p>
+                <p className="text-gray-600">07 67 27 41 87</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Email</h3>
-                <p className="text-gray-600">castelnau@aquabike-center.fr</p>
+                <p className="text-gray-600">contact@aquabikecenter.club</p>
               </div>
             </div>
           </div>
