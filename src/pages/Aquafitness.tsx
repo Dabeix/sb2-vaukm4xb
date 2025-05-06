@@ -106,7 +106,7 @@ const centers: Center[] = [
             slots: ["09h30", "10h15", "11h15"]
           }
         ]
-        ]
+        
       }
     ]
   },
