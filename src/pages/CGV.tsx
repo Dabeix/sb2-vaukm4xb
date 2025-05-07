@@ -124,9 +124,9 @@ export const CGV = () => {
                 Pour toute réclamation, merci de contacter notre service client :
               </p>
               <ul className="mt-4 space-y-2 text-gray-700">
-                <li><strong>Email :</strong> contact@aquabike-center.fr</li>
-                <li><strong>Adresse :</strong> 1744 Avenue de l'Europe, 34170 Castelnau-le-Lez</li>
-                <li><strong>Téléphone :</strong> 04 67 72 50 20</li>
+                <li><strong>Email :</strong> contact@aquabikecenter.club</li>
+                <li><strong>Adresse :</strong> 155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez</li>
+                <li><strong>Téléphone :</strong> 07 67 27 41 87</li>
               </ul>
             </section>
           </div>
