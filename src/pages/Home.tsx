@@ -325,11 +325,11 @@ export const Home = () => {
                     <div className="space-y-2">
                       <p className="flex items-center gap-2 text-gray-700">
                         <MapPin size={18} className="text-blue-600" />
-                        1744 Avenue de l'Europe, 34170 Castelnau-le-Lez
+                        155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez
                       </p>
                       <p className="flex items-center gap-2 text-gray-700">
                         <Phone size={18} className="text-blue-600" />
-                        04 67 72 50 20
+                        07 67 27 41 87
                       </p>
                     </div>
                   </div>
@@ -338,11 +338,11 @@ export const Home = () => {
                     <div className="space-y-2">
                       <p className="flex items-center gap-2 text-gray-700">
                         <MapPin size={18} className="text-blue-600" />
-                        1 rue des Chevaliers de Malte, 34070 Montpellier
+                        769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier
                       </p>
                       <p className="flex items-center gap-2 text-gray-700">
                         <Phone size={18} className="text-blue-600" />
-                        04 67 34 43 00
+                        07 49 32 41 38
                       </p>
                     </div>
                   </div>
