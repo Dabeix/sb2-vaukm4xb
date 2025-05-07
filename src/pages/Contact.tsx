@@ -5,25 +5,25 @@ import { supabase } from '../lib/supabaseClient';
 const centers = [
   {
     name: "CASTELNAU-LE-LEZ",
-    address: "1744 Avenue de l'Europe, 34170 Castelnau-le-Lez",
-    phone: "04 67 72 50 20",
-    email: "castelnau@aquabike-center.fr",
+    address: "155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez",
+    phone: "07 67 27 41 87",
+    email: "contact@aquabikecenter.club",
     hours: {
-      weekdays: "9h - 21h",
-      saturday: "9h - 18h",
-      sunday: "9h - 13h"
+      weekdays: "9h - 20h",
+      saturday: "9h - 11h",
+      sunday: "9h - 11h"
     },
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.6983284859544!2d3.9191844!3d43.6191242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6a5c7a0d6f0f9%3A0x3c0f0f0f0f0f0f0f!2s1744%20Avenue%20de%20l&#39;Europe%2C%2034170%20Castelnau-le-Lez!5e0!3m2!1sfr!2sfr!4v1620000000000!5m2!1sfr!2sfr"
   },
   {
     name: "MONTPELLIER - LE NUAGE",
-    address: "1 rue des Chevaliers de Malte, 34070 Montpellier",
-    phone: "04 67 34 43 00",
-    email: "montpellier@aquabike-center.fr",
+    address: "769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier",
+    phone: "07.49.32.41.38",
+    email: "contact@aquabikecenter.club",
     hours: {
-      weekdays: "9h - 21h",
-      saturday: "9h - 18h",
-      sunday: "9h - 13h"
+      weekdays: "9h - 20h",
+      saturday: "9h - 12h30",
+      sunday: "9h - 11h30"
     },
     mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.8963284859544!2d3.8891844!3d43.6091242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af0f9e1f9a9f%3A0x3c0f0f0f0f0f0f0f!2s1%20Rue%20des%20Chevaliers%20de%20Malte%2C%2034070%20Montpellier!5e0!3m2!1sfr!2sfr!4v1620000000000!5m2!1sfr!2sfr"
   }
