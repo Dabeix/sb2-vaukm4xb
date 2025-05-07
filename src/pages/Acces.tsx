@@ -5,9 +5,9 @@ import { ContactSection } from '../components/ContactSection';
 const centers = [
   {
     name: "CASTELNAU-LE-LEZ",
-    address: "1744 Avenue de l'Europe, 34170 Castelnau-le-Lez",
-    phone: "04 67 72 50 20",
-    email: "castelnau@aquabike-center.fr",
+    address: "155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez",
+    phone: "07 67 27 41 87",
+    email: "contact@aquabikecenter.club",
     transport: {
       car: [
         "Parking gratuit de 50 places",
@@ -24,9 +24,9 @@ const centers = [
   },
   {
     name: "MONTPELLIER - LE NUAGE",
-    address: "1 rue des Chevaliers de Malte, 34070 Montpellier",
-    phone: "04 67 34 43 00",
-    email: "montpellier@aquabike-center.fr",
+    address: "769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier",
+    phone: "07 49 32 41 38",
+    email: "contact@aquabikecenter.club",
     transport: {
       car: [
         "Parking souterrain 200 places",
