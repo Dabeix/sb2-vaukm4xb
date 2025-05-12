@@ -88,7 +88,7 @@ export const CentreMontpellier = () => {
               <Mail className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-medium text-gray-900">Email</h3>
-                <p className="text-gray-600"></p>contact@aquabikecenter.club'</p>
+                <p className="text-gray-600">contact@aquabikecenter.club'</p>
               </div>
             </div>
           </div>
