@@ -33,80 +33,33 @@ const centers: Center[] = [
       {
         activity: "AQUAMIX",
         times: [
-          {
-            day: "Lundi",
-            slots: ["10h15", "15h00"]
-          },
-          {
-            day: "Mardi",
-            slots: ["10h30, 15h00"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["09h00"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["19h30"]
-          },
-          {
-            day: "Samedi",
-            slots: ["09h00"]
-          }
+          { day: "Lundi", slots: ["10h15", "15h00"] },
+          { day: "Mardi", slots: ["10h30", "15h00"] },
+          { day: "Mercredi", slots: ["09h00"] },
+          { day: "Jeudi", slots: ["19h30"] },
+          { day: "Samedi", slots: ["09h00"] }
         ]
       },
       {
         activity: "AQUAGYM",
         times: [
-          {
-            day: "Lundi",
-            slots: ["11h15", "14h00", "17h00"]
-          },
-          {
-            day: "Mardi",
-            slots: ["08h45"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["09h00"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["19h30"]
-          },
-          {
-            day: "Samedi",
-            slots: ["9h00"]
-          },
-          {
+          { day: "Lundi", slots: ["11h15", "14h00", "17h00"] },
+          { day: "Mardi", slots: ["08h45"] },
+          { day: "Mercredi", slots: ["09h00"] },
+          { day: "Jeudi", slots: ["19h30"] },
+          { day: "Samedi", slots: ["09h00"] }
+        ]
+      },
+      {
         activity: "AQUABIKE",
         times: [
-          {
-            day: "Lundi",
-            slots: ["08h30", "09h30", "12h30", "19h00", "20h00"]
-          },
-          {
-            day: "Mardi",
-            slots: ["09h45","12h30", "14h00","18h30", "19h30", "20h15"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["09h45","11h30", "12h30", "14h00","18h30", "18h30", "19h30"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["08h30","10h00", "12h15", "13h00","17h45", "18h30"]
-          },
-          {
-            day: "Samedi",
-            slots: ["10h00", "10h45", "11h30", "12h30"]
-          },
-          {
-            day: "Dimanche",
-            slots: ["09h30", "10h15", "11h15"]
-          }
+          { day: "Lundi", slots: ["08h30", "09h30", "12h30", "19h00", "20h00"] },
+          { day: "Mardi", slots: ["09h45", "12h30", "14h00", "18h30", "19h30", "20h15"] },
+          { day: "Mercredi", slots: ["09h45", "11h30", "12h30", "14h00", "18h30", "19h30"] },
+          { day: "Jeudi", slots: ["08h30", "10h00", "12h15", "13h00", "17h45", "18h30"] },
+          { day: "Samedi", slots: ["10h00", "10h45", "11h30", "12h30"] },
+          { day: "Dimanche", slots: ["09h30", "10h15", "11h15"] }
         ]
-        
       }
     ]
   },
@@ -120,84 +73,38 @@ const centers: Center[] = [
       {
         activity: "AQUAMIX",
         times: [
-          {
-            day: "Lundi",
-            slots: ["10h15", "11h15", "17h45", "19h30"]
-          },
-          {
-            day: "Mardi",
-            slots: ["11h30"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["11h30", "19h30"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["11h30"]
-          },
-          {
-            day: "Vendredi",
-            slots: ["11h00", "17h45", "19h45"]
-          },
-          {
-            day: "Dimanche",
-            slots: ["09h15", "11h15"]
-          }
+          { day: "Lundi", slots: ["10h15", "11h15", "17h45", "19h30"] },
+          { day: "Mardi", slots: ["11h30"] },
+          { day: "Mercredi", slots: ["11h30", "19h30"] },
+          { day: "Jeudi", slots: ["11h30"] },
+          { day: "Vendredi", slots: ["11h00", "17h45", "19h45"] },
+          { day: "Dimanche", slots: ["09h15", "11h15"] }
         ]
       },
       {
         activity: "AQUAGYM",
         times: [
-          {
-            day: "Lundi",
-            slots: ["09h15"]
-          },
-          {
-            day: "Mardi",
-            slots: ["10h30"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["17h45"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["10h30"]
-          },
-          {
-            day: "Vendredi",
-            slots: ["11h15"]
-          },
-          {
+          { day: "Lundi", slots: ["09h15"] },
+          { day: "Mardi", slots: ["10h30"] },
+          { day: "Mercredi", slots: ["17h45"] },
+          { day: "Jeudi", slots: ["10h30"] },
+          { day: "Vendredi", slots: ["11h15"] }
+        ]
+      },
+      {
         activity: "AQUABIKE",
         times: [
-          {
-            day: "Lundi",
-            slots: ["18h45"]
-          },
-          {
-            day: "Mardi",
-            slots: ["09h30","12h30","18h15", "19h00"]
-          },
-          {
-            day: "Mercredi",
-            slots: ["09h30", "12h30", "18h45"]
-          },
-          {
-            day: "Jeudi",
-            slots: ["09h30","10h00", "12h30", "18h45"]
-          },
-         
-          {
-            day: "Dimanche",
-            slots: ["10h15"]
-          }
+          { day: "Lundi", slots: ["18h45"] },
+          { day: "Mardi", slots: ["09h30", "12h30", "18h15", "19h00"] },
+          { day: "Mercredi", slots: ["09h30", "12h30", "18h45"] },
+          { day: "Jeudi", slots: ["09h30", "10h00", "12h30", "18h45"] },
+          { day: "Dimanche", slots: ["10h15"] }
         ]
       }
     ]
   }
 ];
+
 
 const prices = [
   {
