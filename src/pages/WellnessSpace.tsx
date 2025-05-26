@@ -16,18 +16,18 @@ const saunaSchedule = {
 const saunaPrices = [
   {
     name: "Carte 10 séances",
-    price: 120,
+    price: 150,
     validity: "Validité 6 mois"
   },
   {
     name: "Séance à l'unité",
-    price: 15,
+    price: 25,
     note: "Sans abonnement"
   },
   {
-    name: "Séance avec abonnement",
-    price: 8,
-    note: "Avec abonnement mensuel"
+    name: "Séance décourverte",
+    price: 0,
+    note: "Avec séance d'essai"
   }
 ];
 
@@ -39,7 +39,7 @@ const spaPrices = [
   },
   {
     name: "Carte 10 entrées",
-    price: 200,
+    price: 150,
     validity: "Validité 1 an"
   },
   {
