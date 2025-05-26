@@ -28,17 +28,17 @@ const timeSlots: TimeSlot[] = [
   },
   {
     time: '10:30',
-    age: '24-36 mois',
-    description: "Développement de l'autonomie aquatique"
-  },
-  {
-    time: '11:00',
     age: 'Jardin Aquatique',
     description: "Activités ludiques et apprentissage"
   },
   {
+    time: '11:00',
+    age: '24-36 mois',
+    description: "Développement de l'autonomie aquatique"
+  },
+  {
     time: '11:30',
-    age: '6-24 mois',
+    age: '6-36 mois',
     description: "Séance découverte multi-âges"
   }
 ];
@@ -46,18 +46,18 @@ const timeSlots: TimeSlot[] = [
 const prices = [
   {
     name: "Carte 10 séances",
-    price: 120,
-    validity: "Validité 6 mois"
+    price: 150,
+    validity: "Validité 1 an"
   },
   {
     name: "Séance à l'unité",
-    price: 15,
+    price: 35,
     note: "Sans abonnement"
   },
   {
-    name: "Séance avec abonnement",
-    price: 6,
-    note: "Avec abonnement mensuel"
+    name: "première séance",
+    price: 0,
+    note: "Séance d'éssaie"
   }
 ];
 
@@ -136,7 +136,7 @@ export const Babynage = () => {
                 </p>
                 <p>
                   Encadrées par des professionnels qualifiés, les séances se déroulent dans une eau 
-                  chauffée à 32°C pour le confort de votre bébé.
+                  chauffée à 31°C pour le confort de votre bébé.
                 </p>
               </div>
             </div>
@@ -221,7 +221,7 @@ export const Babynage = () => {
                   <li>• Maillot de bain adapté</li>
                   <li>• Couche de bain pour les plus petits</li>
                   <li>• Serviette</li>
-                  <li>• Bonnet de bain (obligatoire)</li>
+                 
                 </ul>
               </div>
               <div>
@@ -231,7 +231,7 @@ export const Babynage = () => {
                 <ul className="space-y-2 text-gray-600">
                   <li>• Arriver 10 minutes avant le cours</li>
                   <li>• Prévoir une collation pour après la séance</li>
-                  <li>• Température de l'eau : 32°C</li>
+                  <li>• Température de l'eau : 31°C</li>
                   <li>• Présence d'un parent obligatoire</li>
                 </ul>
               </div>
