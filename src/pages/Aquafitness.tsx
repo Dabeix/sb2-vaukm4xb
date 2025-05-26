@@ -77,7 +77,7 @@ const centers: Center[] = [
           { day: "Mardi", slots: ["11h30"] },
           { day: "Mercredi", slots: ["11h30", "19h30"] },
           { day: "Jeudi", slots: ["11h30"] },
-          { day: "Vendredi", slots: ["11h00", "17h45", "19h45"] },
+          { day: "Vendredi", slots: ["14h00", "17h45", "19h45"] },
           { day: "Dimanche", slots: ["09h15", "11h15"] }
         ]
       },
@@ -98,6 +98,7 @@ const centers: Center[] = [
           { day: "Mardi", slots: ["09h30", "12h30", "18h15", "19h00"] },
           { day: "Mercredi", slots: ["09h30", "12h30", "18h45"] },
           { day: "Jeudi", slots: ["09h30", "10h00", "12h30", "18h45"] },
+             { day: "Vendredi", slots: ["9h15", "12h30", "18h45"] },
           { day: "Dimanche", slots: ["10h15"] }
         ]
       }
@@ -109,18 +110,18 @@ const centers: Center[] = [
 const prices = [
   {
     name: "Carte 10 séances",
-    price: 120,
-    validity: "Validité 6 mois"
+    price: 159,
+    validity: "Validité 1 an"
   },
   {
     name: "Séance à l'unité",
-    price: 15,
+    price: 20,
     note: "Sans abonnement"
   },
   {
     name: "Séance avec abonnement",
-    price: 6,
-    note: "Avec abonnement mensuel"
+    price: à partir de 10 euros*,
+    note: "*Avec abonnement mensuel"
   }
 ];
 
@@ -342,7 +343,7 @@ export const Aquafitness = () => {
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                      Bonnet de bain (obligatoire)
+                     Bonne humeur
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
