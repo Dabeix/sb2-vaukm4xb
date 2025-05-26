@@ -30,6 +30,17 @@ const centers: Center[] = [
     phone: '07 67 27 41 87',
     email: 'contact@aquabikecenter.club',
     schedules: [
+       {
+        activity: "AQUABIKE",
+        times: [
+          { day: "Lundi", slots: ["08h30", "09h30", "12h30", "19h00", "20h00"] },
+          { day: "Mardi", slots: ["09h45", "12h30", "14h00", "18h30", "19h30", "20h15"] },
+          { day: "Mercredi", slots: ["09h45", "11h30", "12h30", "14h00", "18h30", "19h30"] },
+          { day: "Jeudi", slots: ["08h30", "10h00", "12h15", "13h00", "17h45", "18h30"] },
+          { day: "Samedi", slots: ["10h00", "10h45", "11h30", "12h30"] },
+          { day: "Dimanche", slots: ["09h30", "10h15", "11h15"] }
+        ]
+      },
       {
         activity: "AQUAMIX",
         times: [
@@ -49,18 +60,8 @@ const centers: Center[] = [
           { day: "Jeudi", slots: ["19h30"] },
           { day: "Samedi", slots: ["09h00"] }
         ]
-      },
-      {
-        activity: "AQUABIKE",
-        times: [
-          { day: "Lundi", slots: ["08h30", "09h30", "12h30", "19h00", "20h00"] },
-          { day: "Mardi", slots: ["09h45", "12h30", "14h00", "18h30", "19h30", "20h15"] },
-          { day: "Mercredi", slots: ["09h45", "11h30", "12h30", "14h00", "18h30", "19h30"] },
-          { day: "Jeudi", slots: ["08h30", "10h00", "12h15", "13h00", "17h45", "18h30"] },
-          { day: "Samedi", slots: ["10h00", "10h45", "11h30", "12h30"] },
-          { day: "Dimanche", slots: ["09h30", "10h15", "11h15"] }
-        ]
       }
+     
     ]
   },
   {
@@ -70,6 +71,17 @@ const centers: Center[] = [
     phone: '07.49.32.41.38',
     email: 'contact@aquabikecenter.club',
     schedules: [
+       {
+        activity: "AQUABIKE",
+        times: [
+          { day: "Lundi", slots: ["18h45"] },
+          { day: "Mardi", slots: ["09h30", "12h30", "18h15", "19h00"] },
+          { day: "Mercredi", slots: ["09h30", "12h30", "18h45"] },
+          { day: "Jeudi", slots: ["09h30", "10h00", "12h30", "18h45"] },
+             { day: "Vendredi", slots: ["9h15", "12h30", "18h45"] },
+          { day: "Dimanche", slots: ["10h15"] }
+        ]
+      },
       {
         activity: "AQUAMIX",
         times: [
@@ -90,18 +102,8 @@ const centers: Center[] = [
           { day: "Jeudi", slots: ["10h30"] },
           { day: "Vendredi", slots: ["11h15"] }
         ]
-      },
-      {
-        activity: "AQUABIKE",
-        times: [
-          { day: "Lundi", slots: ["18h45"] },
-          { day: "Mardi", slots: ["09h30", "12h30", "18h15", "19h00"] },
-          { day: "Mercredi", slots: ["09h30", "12h30", "18h45"] },
-          { day: "Jeudi", slots: ["09h30", "10h00", "12h30", "18h45"] },
-             { day: "Vendredi", slots: ["9h15", "12h30", "18h45"] },
-          { day: "Dimanche", slots: ["10h15"] }
-        ]
       }
+     
     ]
   }
 ];
@@ -201,7 +203,7 @@ export const Aquafitness = () => {
             {/* Left Column - Video */}
             <div className="relative h-[500px] rounded-2xl shadow-lg overflow-hidden">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=your-video-id"
+                url="https://www.youtube.com/shorts/mKvJeftPNLQ"
                 width="100%"
                 height="100%"
                 playing={false}
