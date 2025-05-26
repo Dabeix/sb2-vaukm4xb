@@ -119,9 +119,9 @@ const prices = [
     note: "Sans abonnement"
   },
   {
-    name: "Séance avec abonnement",
-    price: 10,
-    note: "Avec abonnement mensuel"
+    name: "Première séance",
+    price: 0,
+    note: "Cours d'essai"
   }
 ];
 
