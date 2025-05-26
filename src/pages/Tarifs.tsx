@@ -6,8 +6,8 @@ const pricingCategories = [
   {
     title: "Aquafitness",
     prices: [
-      { name: "Séance découverte", price: "15€", highlight: true },
-      { name: "Carte 10 séances", price: "120€", validity: "Validité 6 mois" },
+      { name: "Séance découverte", price: "0€", highlight: true },
+      { name: "Carte 10 séances", price: "159€", validity: "Validité 6 mois" },
       { name: "Abonnement mensuel", price: "49.90€/mois", description: "Accès illimité" },
       { name: "Pass Annuel", price: "499€", description: "Engagement 12 mois" }
     ]
@@ -15,28 +15,19 @@ const pricingCategories = [
   {
     title: "Bébé Nageur",
     prices: [
-      { name: "Séance unique", price: "20€" },
-      { name: "Carte 5 séances", price: "90€", validity: "Validité 3 mois" },
-      { name: "Carte 10 séances", price: "160€", validity: "Validité 6 mois" },
-      { name: "Forfait trimestriel", price: "199€", description: "1 séance/semaine" }
+      { name: "Séance unique", price: "35€" },
+      { name: "Carte 5 séances", price: "70€", validity: "Validité 6 mois" },
+      { name: "Carte 10 séances", price: "150€", validity: "Validité 6 mois" },
+      { name: "Forfait annuel", price: "600€", description: "1 séance/semaine" }
     ]
   },
   {
     title: "Espace Bien-être",
     prices: [
       { name: "Accès journée", price: "25€", description: "Sauna + Piscine" },
-      { name: "Carte 10 entrées", price: "200€", validity: "Validité 1 an" },
-      { name: "Abonnement mensuel", price: "79€/mois", description: "Accès illimité" },
-      { name: "Pass Bien-être", price: "599€", description: "Accès annuel illimité" }
-    ]
-  },
-  {
-    title: "Événements",
-    prices: [
-      { name: "Privatisation bassin", price: "250€", description: "2h - 10 personnes" },
-      { name: "Pack Premium", price: "450€", description: "3h - 10 personnes" },
-      { name: "Option coach", price: "+50€", description: "Par heure" },
-      { name: "Personne supplémentaire", price: "+25€", description: "Par personne" }
+      { name: "Carte 10 entrées", price: "150€", validity: "Validité 1 an" },
+      { name: "Abonnement mensuel", price: "39€/mois", description: "Accès illimité" }
+   
     ]
   }
 ];
