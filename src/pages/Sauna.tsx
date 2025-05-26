@@ -45,19 +45,19 @@ export const Sauna = () => {
                   <div className="space-y-2 text-orange-700">
                     <p className="flex items-center gap-2">
                       <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                      9h à 13h30
+                      10h à 14h00
                     </p>
                     <p className="flex items-center gap-2">
                       <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                      17h30 à 20h30
+                      17h00 à 20h00
                     </p>
                   </div>
                 </div>
                 <div className="bg-orange-50 rounded-lg p-6">
-                  <h3 className="font-semibold text-orange-800 mb-4">Samedi</h3>
+                  <h3 className="font-semibold text-orange-800 mb-4">Samedi et dimanche</h3>
                   <p className="flex items-center gap-2 text-orange-700">
                     <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                    9h à 12h
+                    10h à 12h
                   </p>
                 </div>
               </div>
