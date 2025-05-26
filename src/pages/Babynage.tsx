@@ -113,7 +113,7 @@ Un véritable moment de complicité et de découverte, dans un cadre bienveillan
             {/* Video Column */}
             <div className="relative h-[500px] rounded-2xl shadow-lg overflow-hidden">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=your-baby-swimming-video-id"
+                url="https://www.youtube.com/watch?v=aBv1RgJrGyI"
                 width="100%"
                 height="100%"
                 playing={false}
