@@ -120,8 +120,8 @@ const prices = [
   },
   {
     name: "Séance avec abonnement",
-    price: à partir de 10 euros*,
-    note: "*Avec abonnement mensuel"
+    price: 10,
+    note: "Avec abonnement mensuel"
   }
 ];
 
