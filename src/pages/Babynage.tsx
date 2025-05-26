@@ -97,7 +97,10 @@ export const Babynage = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-amatic font-bold text-center mb-4">BÉBÉ NAGEUR</h1>
           <p className="text-center text-cyan-100 max-w-2xl mx-auto">
-            Découvrez nos séances d'éveil aquatique adaptées à l'âge de votre enfant
+      Découvrez nos séances de bébé nageur, un moment unique d’éveil aquatique pensé pour chaque âge !
+Nos séances sont spécialement conçues pour accompagner le développement moteur, sensoriel et émotionnel de votre enfant dès ses premiers mois. Dans une eau chauffée et sécurisée, votre bébé découvre en douceur les plaisirs de l’eau, renforcé par votre présence rassurante.
+Encadrés par des professionnels qualifiés, ces instants ludiques favorisent la motricité, la confiance en soi et le lien parent-enfant, tout en s’adaptant au rythme et aux besoins de chaque tranche d’âge.
+Un véritable moment de complicité et de découverte, dans un cadre bienveillant et joyeux !
           </p>
         </div>
       </div>
