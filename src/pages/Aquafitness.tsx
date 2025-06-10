@@ -238,6 +238,13 @@ export const Aquafitness = () => {
                 <Clock className="w-8 h-8 text-blue-600" />
                 <h2 className="text-2xl font-amatic font-bold text-blue-800">
                   Planning des cours
+                   <button
+                onClick={downloadPriceList}
+                className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <Download size={20} />
+                <span>Télécharger les tarifs</span>
+              </button>
                 </h2>
               </div>
               <div className="space-y-6 max-h-[500px] overflow-y-auto pr-2">
