@@ -319,7 +319,7 @@ export const WellnessSpace = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                  Crénau d'une heure disponible
+                  Crénau de deux heures
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
@@ -327,7 +327,7 @@ export const WellnessSpace = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                  Repos entre les sessions de 15 minutes (conseil)
+                 Libre accès à tout l'espace bien être
                 </li>
               </ul>
             </div>
