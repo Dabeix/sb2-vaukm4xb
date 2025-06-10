@@ -6,7 +6,7 @@ import { jsPDF } from 'jspdf';
 import { ContactSection } from '../components/ContactSection';
 
 interface Schedule {
-  activity: string;
+  activity: string; 
   times: {
     day: string;
     slots: string[];
