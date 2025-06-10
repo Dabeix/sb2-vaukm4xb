@@ -7,8 +7,8 @@ import saunaImage from '/images/SAUNA.jpg';
 
 const saunaSchedule = {
   weekdays: {
-    morning: "10h00 à 12h00",
-  evening: "12h00 à 20h00",
+    morning: "10h00 à 14h00",
+  evening: "15h00 à 20h00",
   },
   saturday: "10h à 13h00",
   sunday: "10h à 13h00"
@@ -223,12 +223,12 @@ export const WellnessSpace = () => {
                   </div>
                   <div className="space-y-4 text-gray-600">
                     <p>
-                      Profitez d'un moment de détente absolue dans notre espace spa avec :
+                      Offrez-vous 2 heures d’évasion et de bien-être 
                     </p>
                     <ul className="space-y-2 pl-4">
                       <li className="flex items-center gap-2">
                         <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Accès illimité à la piscine
+                        Accès illimité à la piscine chauffé 31°
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
@@ -236,11 +236,11 @@ export const WellnessSpace = () => {
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Espace détente
+                       Jacuzzi
                       </li>
                       <li className="flex items-center gap-2">
                         <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                        Tisanerie
+                        Tisanerie, espace bien être
                       </li>
                     </ul>
                   </div>
