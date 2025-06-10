@@ -7,27 +7,28 @@ import saunaImage from '/images/SAUNA.jpg';
 
 const saunaSchedule = {
   weekdays: {
-    morning: "9h à 13h30",
-    evening: "17h30 à 20h30"
+    morning: "10h à 20h00",
+  
   },
-  saturday: "9h à 12h"
+  saturday: "10h à 13h",
+  sunday:"10h à 13h"
 };
 
 const saunaPrices = [
   {
-    name: "Carte 10 séances",
-    price: 150,
-    validity: "Validité 6 mois"
+    name: "Carte à partir de",
+    price: 9.90,
+    validity: "la séance"
   },
   {
-    name: "Séance à l'unité",
-    price: 25,
-    note: "Sans abonnement"
+    name: "Abonnement à partir de",
+    price: 2.90,
+    note: "la séance"
   },
   {
-    name: "Séance décourverte",
-    price: 0,
-    note: "Avec séance d'essai"
+    name: "Séance à l'unitée",
+    price: 15,
+    note: "la séance"
   }
 ];
 
@@ -104,7 +105,7 @@ export const WellnessSpace = () => {
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-amatic font-bold text-center mb-4">ESPACE BIEN-ÊTRE</h1>
           <p className="text-center text-orange-100 max-w-2xl mx-auto">
-            Détente et bien-être dans notre espace dédié
+            Piscine chauffée, Sauna,Hammam, Jaccuzzi
           </p>
         </div>
       </div>
@@ -318,7 +319,7 @@ export const WellnessSpace = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                  Séances de 15-20 minutes conseillées
+                  Crénau d'une heure disponible
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
@@ -326,7 +327,7 @@ export const WellnessSpace = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                  Repos entre les séances
+                  Repos entre les sessions de 15 minutes (conseil)
                 </li>
               </ul>
             </div>
