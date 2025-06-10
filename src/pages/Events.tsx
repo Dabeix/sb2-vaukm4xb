@@ -134,18 +134,18 @@ export const Events = () => {
             <h2 className="text-2xl font-amatic font-bold text-teal-800 mb-6">Tarifs Événements</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="bg-teal-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-teal-800 mb-4">Privatisation bassin</h3>
+                <h3 className="text-xl font-bold text-teal-800 mb-4">Privatisation bassin </h3>
                 <div className="space-y-4">
-                  <p className="text-3xl font-bold text-teal-600">À partir de 250€</p>
-                  <p className="text-sm text-teal-600">Pour 10 personnes (2h)</p>
+                  <p className="text-3xl font-bold text-teal-600">À partir de 349€</p>
+                  <p className="text-sm text-teal-600">Pour 10 personnes (2h30)</p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
-                      <span>Coach dédié inclus</span>
+                      <span>Surveillant diplomé dédié inclus</span>
                     </li>
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
-                      <span>Matériel fourni</span>
+                      <span>Sauna, hammam, jacuzzi, picine</span>
                     </li>
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
@@ -159,22 +159,22 @@ export const Events = () => {
               </div>
 
               <div className="bg-teal-50 rounded-lg p-6">
-                <h3 className="text-xl font-bold text-teal-800 mb-4">Pack Premium</h3>
+                <h3 className="text-xl font-bold text-teal-800 mb-4">Pack Anniversaire</h3>
                 <div className="space-y-4">
-                  <p className="text-3xl font-bold text-teal-600">À partir de 450€</p>
-                  <p className="text-sm text-teal-600">Pour 10 personnes (3h)</p>
+                  <p className="text-3xl font-bold text-teal-600">À partir de 349€</p>
+                  <p className="text-sm text-teal-600">Pour 10 personnes (2h30)</p>
                   <ul className="space-y-2">
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
-                      <span>Tout le pack bassin</span>
+                      <span>Accès piscine chauffé</span>
                     </li>
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
-                      <span>Accès spa et sauna</span>
+                      <span>Surveillant diplomé dédié inclus</span>
                     </li>
                     <li className="flex items-center gap-2 text-teal-700">
                       <Check size={20} className="text-teal-500" />
-                      <span>Collation et boissons</span>
+                      <span>Bonbons et boissons</span>
                     </li>
                   </ul>
                   <p className="text-sm text-teal-600 mt-4">
