@@ -36,22 +36,12 @@ const additionalServices = [
   {
     name: "Massage relaxant",
     description: "30 minutes de détente absolue",
-    price: "à partir de 45€/pers."
+    price: "à partir de 70€/pers."
   },
   {
     name: "Gâteau personnalisé",
-    description: "Création sur mesure selon vos envies",
-    price: "à partir de 35€"
-  },
-  {
-    name: "Décoration thématique",
-    description: "Installation et mise en place incluses",
+    description: "Création sur mesure",
     price: "à partir de 50€"
-  },
-  {
-    name: "Photographe professionnel",
-    description: "Immortalisez vos moments",
-    price: "à partir de 150€"
   }
 ];
 
