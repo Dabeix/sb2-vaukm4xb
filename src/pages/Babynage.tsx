@@ -45,19 +45,19 @@ const timeSlots: TimeSlot[] = [
 
 const prices = [
   {
-    name: "Carte 10 séances",
-    price: 150,
-    validity: "Validité 1 an"
+    name: "Carte à partir de :",
+    price: 20,
+    validity: "la séance"
   },
   {
-    name: "Séance à l'unité",
-    price: 35,
-    note: "Sans abonnement"
+    name: "Abonnement annuel à partir de ",
+    price: 15,
+    note: "la séance"
   },
   {
     name: "première séance",
-    price: 0,
-    note: "Séance d'éssaie"
+    price: 10,
+    note: "Séance d'essaie"
   }
 ];
 
