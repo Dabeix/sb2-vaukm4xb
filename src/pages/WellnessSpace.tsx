@@ -34,19 +34,19 @@ const saunaPrices = [
 
 const spaPrices = [
   {
-    name: "Accès journée",
-    price: 25,
-    description: "Accès illimité piscine et sauna"
+    name: "Abonnement menusel",
+    price: 45,
+    description: "Engagement annuel"
   },
   {
     name: "Carte 10 entrées",
-    price: 150,
-    validity: "Validité 1 an"
+    price: 135,
+    validity: "La séance de 2H"
   },
   {
-    name: "Abonnement mensuel",
-    price: 49.90,
-    description: "Accès illimité 7j/7"
+    name: "La séance",
+    price: 15,
+    description: "2H"
   }
 ];
 
