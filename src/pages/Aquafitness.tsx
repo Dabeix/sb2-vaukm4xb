@@ -112,14 +112,14 @@ const centers: Center[] = [
 
 const prices = [
   {
-    name: "Les cartes à partir de (la séance) :",
+    name: "Les cartes à partir de :",
     price: 10,
-    validity: "Validité 1 an"
+    validity: "La séance"
   },
   {
-    name: "Les abonnements à partir de (la séance)",
+    name: "Les abonnements à partir de :",
     price: 5.90,
-    note: "Engagement 1 an"
+    note: "La séance"
   },
   {
     name: "Première séance",
@@ -317,24 +317,27 @@ export const Aquafitness = () => {
                 </h2>
               </div>
               <div className="space-y-4">
+                  <div>
+                  <h3 className="font-semibold text-blue-800 mb-2">AQUABIKE</h3>
+                  <p className="text-gray-600">
+                  Découvrez l'Aquabike, l'alliance parfaite entre cardio et plaisir aquatique, pour un entraînement dynamique et rafraîchissant.
+                  </p>
+                </div>
+                    <div>
+                  <h3 className="font-semibold text-blue-800 mb-2">AQUAGYM</h3>
+                  <p className="text-gray-600">
+                   Bougez, tonifiez, éclatez-vous ! L’aquagym, c’est l’énergie du sport dans la légèreté de l’eau.
+
+                  </p>
+                </div>
                 <div>
                   <h3 className="font-semibold text-blue-800 mb-2">AQUAMIX</h3>
                   <p className="text-gray-600">
-                    Un mix d'activités aquatiques pour une séance complète et variée.
+                 Un cocktail explosif de cardio et de renforcement dans l’eau : pédalez, bougez, tonifiez sans impact… et avec le sourire !
                   </p>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-blue-800 mb-2">AQUAGYM</h3>
-                  <p className="text-gray-600">
-                    Gymnastique douce dans l'eau pour tonifier le corps en douceur.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-blue-800 mb-2">AQUABIKE</h3>
-                  <p className="text-gray-600">
-                    Vélo dans l'eau pour un entraînement cardio intense et sans impact.
-                  </p>
-                </div>
+            
+              
               </div>
             </div>
 
