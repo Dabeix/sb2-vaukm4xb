@@ -24,47 +24,6 @@ interface Center {
 
 const centers: Center[] = [
   {
-    id: 'castelnau',
-    name: 'CASTELNAU-LE-LEZ',
-    address: '155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez',
-    phone: '07 67 27 41 87',
-    email: 'contact@aquabikecenter.club',
-    schedules: [
-       {
-        activity: "AQUABIKE",
-        times: [
-          { day: "Lundi", slots: ["08h30", "09h30", "12h30", "19h00", "20h00"] },
-          { day: "Mardi", slots: ["09h45", "12h30", "14h00", "18h30", "19h30", "20h15"] },
-          { day: "Mercredi", slots: ["09h45", "11h30", "12h30", "14h00", "18h30", "19h30"] },
-          { day: "Jeudi", slots: ["08h30", "10h00", "12h15", "13h00", "17h45", "18h30"] },
-          { day: "Samedi", slots: ["10h00", "10h45", "11h30", "12h30"] },
-          { day: "Dimanche", slots: ["09h30", "10h15", "11h15"] }
-        ]
-      },
-      {
-        activity: "AQUAMIX",
-        times: [
-          { day: "Lundi", slots: ["10h15", "15h00"] },
-          { day: "Mardi", slots: ["10h30", "15h00"] },
-          { day: "Mercredi", slots: ["09h00"] },
-          { day: "Jeudi", slots: ["19h30"] },
-          { day: "Samedi", slots: ["09h00"] }
-        ]
-      },
-      {
-        activity: "AQUAGYM",
-        times: [
-          { day: "Lundi", slots: ["11h15", "14h00", "17h00"] },
-          { day: "Mardi", slots: ["08h45"] },
-          { day: "Mercredi", slots: ["09h00"] },
-          { day: "Jeudi", slots: ["19h30"] },
-          { day: "Samedi", slots: ["09h00"] }
-        ]
-      }
-     
-    ]
-  },
-  {
     id: 'montpellier',
     name: 'MONTPELLIER - LE NUAGE',
     address: '769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier',
@@ -105,7 +64,49 @@ const centers: Center[] = [
       }
      
     ]
+  },
+  {
+    id: 'castelnau',
+    name: 'CASTELNAU-LE-LEZ',
+    address: '155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez',
+    phone: '07 67 27 41 87',
+    email: 'contact@aquabikecenter.club',
+    schedules: [
+       {
+        activity: "AQUABIKE",
+        times: [
+          { day: "Lundi", slots: ["08h30", "09h30", "12h30", "19h00", "20h00"] },
+          { day: "Mardi", slots: ["09h45", "12h30", "14h00", "18h30", "19h30", "20h15"] },
+          { day: "Mercredi", slots: ["09h45", "11h30", "12h30", "14h00", "18h30", "19h30"] },
+          { day: "Jeudi", slots: ["08h30", "10h00", "12h15", "13h00", "17h45", "18h30"] },
+          { day: "Samedi", slots: ["10h00", "10h45", "11h30", "12h30"] },
+          { day: "Dimanche", slots: ["09h30", "10h15", "11h15"] }
+        ]
+      },
+      {
+        activity: "AQUAMIX",
+        times: [
+          { day: "Lundi", slots: ["10h15", "15h00"] },
+          { day: "Mardi", slots: ["10h30", "15h00"] },
+          { day: "Mercredi", slots: ["09h00"] },
+          { day: "Jeudi", slots: ["19h30"] },
+          { day: "Samedi", slots: ["09h00"] }
+        ]
+      },
+      {
+        activity: "AQUAGYM",
+        times: [
+          { day: "Lundi", slots: ["11h15", "14h00", "17h00"] },
+          { day: "Mardi", slots: ["08h45"] },
+          { day: "Mercredi", slots: ["09h00"] },
+          { day: "Jeudi", slots: ["19h30"] },
+          { day: "Samedi", slots: ["09h00"] }
+        ]
+      }
+     
+    ]
   }
+  
 ];
 
 
@@ -243,7 +244,7 @@ export const Aquafitness = () => {
                 className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 <Download size={20} />
-                <span>Télécharger les tarifs</span>
+                <span>Télécharger le planning</span>
               </button>
                 </h2>
               </div>
