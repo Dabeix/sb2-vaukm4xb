@@ -112,14 +112,14 @@ const centers: Center[] = [
 
 const prices = [
   {
-    name: "Carte 10 séances",
-    price: 159,
+    name: "Les cartes à partir de (la séance) :",
+    price: 10,
     validity: "Validité 1 an"
   },
   {
-    name: "Séance à l'unité",
-    price: 20,
-    note: "Sans abonnement"
+    name: "Les abonnements à partir de (la séance)",
+    price: 5.90,
+    note: "Engagement 1 an"
   },
   {
     name: "Première séance",
