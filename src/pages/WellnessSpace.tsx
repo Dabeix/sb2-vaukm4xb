@@ -7,11 +7,11 @@ import saunaImage from '/images/SAUNA.jpg';
 
 const saunaSchedule = {
   weekdays: {
-    morning: "10h à 20h00",
-  
+    morning: "10h00 à 12h00",
+  evening: "12h00 à 20h00",
   },
-  saturday: "10h à 13h",
-  sunday:"10h à 13h"
+  saturday: "10h à 13h00",
+  sunday: "10h à 13h00"
 };
 
 const saunaPrices = [
