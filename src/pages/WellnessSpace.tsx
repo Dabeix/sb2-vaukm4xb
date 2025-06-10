@@ -34,9 +34,9 @@ const saunaPrices = [
 
 const spaPrices = [
   {
-    name: "Abonnement menusel",
+    name: "Abonnement mensuel",
     price: 45,
-    description: "Engagement annuel"
+    description: "2H par semaine"
   },
   {
     name: "Carte 10 entrées",
@@ -46,7 +46,7 @@ const spaPrices = [
   {
     name: "La séance",
     price: 15,
-    description: "2H"
+    description: "Les 2H"
   }
 ];
 
