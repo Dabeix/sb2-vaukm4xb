@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Calendar as CalendarIcon, Clock, MapPin, Phone, Mail, Download, Waves } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import ReactPlayer from 'react-player';
-import { jsPDF } from 'jspdf';
 import { ContactSection } from '../components/ContactSection';
 
 interface Schedule {
@@ -20,6 +19,7 @@ interface Center {
   phone: string;
   email: string;
   schedules: Schedule[];
+  planningPdf: string;
 }
 
 const centers: Center[] = [
@@ -29,6 +29,7 @@ const centers: Center[] = [
     address: '769 Av. de la Mer-Raymond Dugrand, 34000 Montpellier',
     phone: '07.49.32.41.38',
     email: 'contact@aquabikecenter.club',
+    planningPdf: '/plannings/montpellier-aquafitness.pdf',
     schedules: [
        {
         activity: "AQUABIKE",
@@ -71,6 +72,7 @@ const centers: Center[] = [
     address: '155 Rue Alphonse Beau de Rochas, 34170 Castelnau-le-Lez',
     phone: '07 67 27 41 87',
     email: 'contact@aquabikecenter.club',
+    planningPdf: '/plannings/castelnau-aquafitness.pdf',
     schedules: [
        {
         activity: "AQUABIKE",
@@ -134,33 +136,6 @@ export const Aquafitness = () => {
   
   const currentCenter = centers.find(center => center.id === selectedCenter)!;
 
-  const downloadPriceList = () => {
-    const doc = new jsPDF();
-    
-    // Add title
-    doc.setFontSize(20);
-    doc.text('Aquabike Center - Tarifs', 20, 20);
-    
-    // Add prices
-    doc.setFontSize(12);
-    prices.forEach((price, index) => {
-      const y = 40 + (index * 20);
-      doc.text(`${price.name}: ${price.price}€`, 20, y);
-      if (price.validity) {
-        doc.text(price.validity, 20, y + 7);
-      }
-      if (price.note) {
-        doc.text(price.note, 20, y + 7);
-      }
-    });
-    
-    // Add footer
-    doc.setFontSize(10);
-    doc.text('* Les tarifs peuvent être modifiés sans préavis', 20, 150);
-    
-    // Save the PDF
-    doc.save('aquabike-center-tarifs.pdf');
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
@@ -235,18 +210,21 @@ export const Aquafitness = () => {
 
             {/* Right Column - Schedule */}
             <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
-              <div className="flex items-center gap-4 mb-6">
-                <Clock className="w-8 h-8 text-blue-600" />
-                <h2 className="text-2xl font-amatic font-bold text-blue-800">
-                  Planning des cours
-                   <button
-                onClick={downloadPriceList}
-                className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-              >
-                <Download size={20} />
-                <span>Télécharger le planning</span>
-              </button>
-                </h2>
+              <div className="flex items-center justify-between mb-6">
+                <div className="flex items-center gap-4">
+                  <Clock className="w-8 h-8 text-blue-600" />
+                  <h2 className="text-2xl font-amatic font-bold text-blue-800">
+                    Planning des cours
+                  </h2>
+                </div>
+                <a
+                  href={currentCenter.planningPdf}
+                  download
+                  className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <Download size={20} />
+                  <span className="hidden sm:inline">PDF</span>
+                </a>
               </div>
               <div className="space-y-6 max-h-[500px] overflow-y-auto pr-2">
                 {currentCenter.schedules.map((schedule, index) => (
@@ -282,13 +260,14 @@ export const Aquafitness = () => {
           <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-2xl font-amatic font-bold text-blue-800">Nos Tarifs</h2>
-              <button
-                onClick={downloadPriceList}
+              <a
+                href="/tarifs/aquafitness.pdf"
+                download
                 className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
               >
                 <Download size={20} />
                 <span>Télécharger les tarifs</span>
-              </button>
+              </a>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
               {prices.map((price, index) => (
