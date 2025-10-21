@@ -1,10 +1,11 @@
 import React from 'react';
-import { Euro } from 'lucide-react';
+import { Euro, Download } from 'lucide-react';
 import { ContactSection } from '../components/ContactSection';
 
 const pricingCategories = [
   {
     title: "Aquafitness",
+    pdfFile: "/tarifs/aquafitness.pdf",
     prices: [
       { name: "Séance découverte", price: "0€", highlight: true },
       { name: "Carte 10 séances", price: "159€", validity: "Validité 6 mois" },
@@ -14,6 +15,7 @@ const pricingCategories = [
   },
   {
     title: "Bébé Nageur",
+    pdfFile: "/tarifs/bebe-nageur.pdf",
     prices: [
       { name: "Séance unique", price: "35€" },
       { name: "Carte 5 séances", price: "70€", validity: "Validité 6 mois" },
@@ -23,11 +25,21 @@ const pricingCategories = [
   },
   {
     title: "Espace Bien-être",
+    pdfFile: "/tarifs/espace-bien-etre.pdf",
     prices: [
       { name: "Accès journée", price: "25€", description: "Sauna + Piscine" },
       { name: "Carte 10 entrées", price: "150€", validity: "Validité 1 an" },
       { name: "Abonnement mensuel", price: "39€/mois", description: "Accès illimité" }
-   
+
+    ]
+  },
+  {
+    title: "Événements",
+    pdfFile: "/tarifs/evenements.pdf",
+    prices: [
+      { name: "Anniversaire enfant", price: "À partir de 200€", description: "2h d'animation" },
+      { name: "Privatisation", price: "Sur devis", description: "Événements privés" },
+      { name: "Team building", price: "Sur devis", description: "Groupes entreprises" }
     ]
   }
 ];
@@ -50,10 +62,20 @@ export const Tarifs = () => {
         <div className="grid md:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {pricingCategories.map((category, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg p-6 md:p-8">
-              <h2 className="text-2xl font-amatic font-bold text-blue-800 mb-6 flex items-center gap-2">
-                <Euro className="w-6 h-6 text-blue-600" />
-                {category.title}
-              </h2>
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-2xl font-amatic font-bold text-blue-800 flex items-center gap-2">
+                  <Euro className="w-6 h-6 text-blue-600" />
+                  {category.title}
+                </h2>
+                <a
+                  href={category.pdfFile}
+                  download
+                  className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <Download className="w-4 h-4" />
+                  <span className="text-sm font-medium">PDF</span>
+                </a>
+              </div>
               <div className="space-y-4">
                 {category.prices.map((price, priceIndex) => (
                   <div

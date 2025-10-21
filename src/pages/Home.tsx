@@ -4,10 +4,10 @@ import { SwissFranc as Swim, Baby, Droplets, Users, Mail, Phone, MapPin, Send } 
 import { supabase } from '../lib/supabaseClient';
 
 // Import des images locales
-import aquafitnessImage from '/images/AQUAFITNESS3.jpg';
+import aquafitnessImage from '/images/AQUAFITNESS2.jpg';
 import babynageImage from '/images/BABY2.jpg';
 import saunaImage from '/images/SAUNA2.jpg';
-import eventsImage from '/images/aniversaire2.jpg';
+import eventsImage from '/images/EVENTS.jpg';
 
 interface SiteSettings {
   floating_bubble_active: boolean;
